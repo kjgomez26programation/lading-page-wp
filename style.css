@@ -1,0 +1,131 @@
+/*
+Theme Name: Twenty Twenty Three Child
+Theme URI: http://ejemplo.com/
+Description: Child theme based on Twenty Twenty Three
+Author: kjgomez26programation
+Author URI: http://ejemplo.com/
+Template: twentytwentythree
+Version: 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.container-txt{
+  max-width: 1280px;
+}
+
+.txt-img{
+  padding: 20px 0px 0px 0px;
+}
+.txt-img img{
+  width: 100%;
+}
+.banner h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  padding: 80px 0px 0px 0px; 
+}
+.banner h1 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 4.3rem;
+  padding: 5px 0px 0px ;
+}
+.banner p {
+  font-family: sans-serif;
+  padding: 5px 0px 0px 0px;
+}
+.grey{
+  width: 100%;
+  height: 45px;
+  background-color: #e9e8e8;
+}
+.txt-logo{
+  font-family: 'Kanit', sans-serif;
+  font-size: 2rem;
+}
+.txt-services h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+.txt-faq h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+.accordion-item{
+  background-color:white;
+  box-shadow:2px 2px 8px  #e9e8e8;
+}
+.accordion-body{
+  background: white;
+}
+.accordion-button{
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.accordion-button:focus{
+  box-shadow: none;
+  border: none ;
+}
+.accordion-button:not(.collapsed){
+  background-color:   #e9e8e8;
+  box-shadow: none;
+}
+.accordion-button:after{
+  color:  #e9e8e8;
+}
+.txt-newsletter h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+.txt-img-II img{
+  width: 100%;
+  height: 450px;
+}
+.txt-new{
+  padding: 20px 0px 0px 0px;
+}
+.txt-contact{
+  background:#e9e8e8 ;
+}
+footer h3{
+  font-family: 'Roboto', sans-serif;
+}
+.custom-title {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 412px) {
+  .banner h2 {
+    font-size: 3rem;
+    padding: 60px 0px 0px 0px;
+  }
+  .custom-title{
+    font-size:0.8rem;
+  }
+  .card .fa-plane {
+    font-size: 3rem;
+    transform: scale(1.2); 
+  }
+  .card .fa-camera{
+    font-size: 3rem;
+    transform: scale(1.2); 
+  }
+  .card .fa-person{
+    font-size: 3rem;
+    transform: scale(1.2); 
+  }
+  .txt-img-II img{
+    width: 100%;
+    height: 450px;
+  }
+  
+  
+}
